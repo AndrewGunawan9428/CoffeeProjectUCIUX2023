@@ -1,41 +1,42 @@
 /* see the brand guide for colors, fonts, and images in CodePen: 
 https://docs.google.com/document/d/13de5zlWmnox1BbZOiKo1p7tsirkgv0IQLG_bg1R60uE/edit?usp=sharing */
-h1{
-  font-family: 'Poppins', sans-serif;
+h1 {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
 }
 
-p{
-  font-family: 'Lato', sans-serif;
+p {
+  font-family: "Lato", sans-serif;
 }
 
-.header{
-  background-color:#082B59;
+.header {
+  background-color: #082B59;
 }
 
-.footer{
-  background-color:#082B59;
-  text-align:center;
-  color:#FFFFFF;
-  font-size:15px;
-  padding-top:2px;
+.footer {
+  background-color: #082B59;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 15px;
+  padding-top: 2px;
 }
 
-.logo{
-  width:120px;
-  display:block;
+.logo {
+  width: 120px;
+  display: block;
   margin: 0 auto;
 }
 
-a{
-  font-family: 'Lato', sans-serif;
-  color:#FFFFFF;
-  text-decoration:none;
+a {
+  font-family: "Lato", sans-serif;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
-.navigation{
-  display:flex;
+.navigation {
+  display: flex;
   flex-wrap: nowrap;
-  justify-content:center;
+  justify-content: center;
 }
 
 .navigation > div {
@@ -46,121 +47,123 @@ a{
   font-size: 18px;
 }
 
-.fa-solid{
-  color:white;
+.fa-solid {
+  color: white;
 }
 
-.divider{
-  height:10px;
-  width:100%;
-  background-color:#D98555;
-}
-
-.map{
-  color:#D98555;
-}
-.card{
-  background-color:#59331D;
-  width:300px;
-  border-radius:25px;
-}
-.cardimg{
+.divider {
+  height: 10px;
   width: 100%;
-  border-radius:25px 25px 0px 0px;
+  background-color: #D98555;
 }
 
-.card p{
-  color:#FFFFFF;
-  margin:15px;
+.map {
+  color: #D98555;
 }
 
-.column{
+.card {
+  background-color: #59331D;
+  width: 300px;
+  border-radius: 25px;
+}
+
+.cardimg {
+  width: 100%;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.card p {
+  color: #FFFFFF;
+  margin: 15px;
+}
+
+.column {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   gap: 40px;
-  max-width:1000px;
-  margin:0px auto;
+  max-width: 1000px;
+  margin: 0px auto;
 }
 
-.button{
-  color:#FFFFFF;
-  background-color:#59331D;
-  border-radius:10px;
+.button {
+  color: #FFFFFF;
+  background-color: #59331D;
+  border-radius: 10px;
   padding: 10px 15px;
-  font-size:18px;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 1000px) {
-
-.column{
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  gap: 40px;
-  max-width:1000px;
-  margin:0px auto;
-}
-
-  .card{
-    width:100%;
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0px auto;
   }
-
-  button{
-    width:100%;
+  .card {
+    width: 100%;
   }
-
-  h1{
-    text-align:center;
-    font-size:32px;
+  button {
+    width: 100%;
   }
-
-  p{
-    text-align:center;
+  h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+  p {
+    text-align: center;
     font-size: 14px;
   }
-
 }
 @media screen and (max-width: 1000px) {
-  
-.mobileimg{
-  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_oAJ-mCT-HQEvmnVd95POZWWHYM4KLsGaqi_BJ2l9VETE8s0ROFcKP17efdzh2fh3GF8&usqp=CAU");
-  height: 300px;
-  border-radius: 25px 25px 0 0;
- background-position: center bottom; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-}
-  
-  .cardimg{
-    display:none;
+  .mobileimg {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_oAJ-mCT-HQEvmnVd95POZWWHYM4KLsGaqi_BJ2l9VETE8s0ROFcKP17efdzh2fh3GF8&usqp=CAU");
+    height: 300px;
+    border-radius: 25px 25px 0 0;
+    background-position: center bottom; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
   }
-  
-.column{
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  gap: 40px;
-  max-width:1000px;
-  margin:0px auto;
-}
-  
-  .card{
-    width:100%;
+  .cardimg {
+    display: none;
   }
-  
-  button{
-    width:100%;
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0px auto;
   }
-  
-  h1{
-    text-align:center;
-    font-size:32px;
+  .card {
+    width: 100%;
   }
-  
-  p{
-    text-align:center;
+  button {
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+  p {
+    text-align: center;
     font-size: 14px;
   }
-  
 }
+h2 {
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: red;
+  background-color: black;
+}
+
+h1 {
+  margin: 200px;
+  padding: 200px;
+}/*# sourceMappingURL=style.css.map */
